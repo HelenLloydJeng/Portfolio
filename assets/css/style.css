@@ -9,10 +9,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
 
+#hero {
+    background-image:url("images/background.webp");
+    background-color: lightgrey; /* Fallback background color */
+        background-position: 50% 70%; /* Adjusts the position of the image */
+        background-size: cover; /* Ensures the image covers the section */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        min-height: 500px; /* Ensures the hero section has a minimum height */
+        padding: 5px 7px; /* Adds padding around the content */
+    }
+
 body {
     font-family: "poppins", sans-serif;
     background-color: #a4c2d1; /*egg blue */
+    
 }
+
 
 h1,
 h2  {
