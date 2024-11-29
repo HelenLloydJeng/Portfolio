@@ -24,6 +24,12 @@ h2  {
 
 }
 
+.sharp-corners,
+.sharp-corners * {
+    border-radius: 0;
+}
+
+
 
 #portfolio {
     background-color: #dbdcde; /* light grey */
